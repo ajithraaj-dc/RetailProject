@@ -17,7 +17,7 @@ pipeline{
             echo "package completed"
         }
     }
-    sage('Deploy'){
+    stage('Deploy'){
         steps(
             echo "Deploy completed"
         )
